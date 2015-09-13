@@ -9,10 +9,11 @@ include "./phpmailer/class.smtp.php";
 //$msg = null;
 //if(isset($_POST['enviaEmail']))
 //{
-$nome = addcslashes(trim($_POST['nome']));
-$email = addcslashes(trim($_POST['email']));
-$telefone = addcslashes(trim($_POST['telefone']));
-$mensagem = addcslashes(trim($_POST['mensagem']));
+$nome = (trim($_POST['nome']));
+$email = (trim($_POST['email']));
+$telefone = (trim($_POST['telefone']));
+$mensagem = (trim($_POST['mensagem']));
+$concorrer = (trim($_POST['condicao']));
 $destino = "rafaelcarlosrc2014@gmail.com";
 
 $mail = new PHPMailer;
@@ -30,22 +31,24 @@ $mail->Password = "sequelafx";
 
 //$mail->isMail();
 //$mail->isHTML(true);
-$mail->setFrom($email, "Inscrição Vestibular");
-$mail->From = "rafaelcarlosrc2014@gmail.com";
+$mail->setFrom("rafaelcarlosrc2014@gmail.com", "Inscrição Vestibular");
+//$mail->From = "rafaelcarlosrc2014@gmail.com";
 $mail->FromName = $nome;
 $mail->Subject = "Vestibular de Sistemas de Informação";
 $mail->addAddress($email);
 $mail->msgHTML($mensagem);
-$mail->Body($mensagem);
+//$mail->Body("TExto");
+$mail->Body = "<h1>". "Dados cadastrados"."</h1>". "<br/>". "Nome: "  .$nome ."." .'<br/>' . " Email: ". $email .".". '<br/>' . 
+         "Deseja concorrer a uma inscrição do Vestibular? " . $concorrer ."." ;
 
 $mail->send();
 
 //send the message, check for errors
-if (!$mail->send()) {
-    echo "Mailer Error: " . $mail->ErrorInfo;
-} else {
-    echo "Message sent!";
-}
+//if (!$mail->send()) {
+//    echo "Mailer Error: " . $mail->ErrorInfo;
+//} else {
+//    echo "Message sent!";
+//}
 
 //}
 ?>
