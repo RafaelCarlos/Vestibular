@@ -25,14 +25,14 @@ $mail->Host = "smtp.gmail.com";
 $mail->Port = 587;
 $mail->SMTPSecure = "tls";
 $mail->SMTPAuth = true;
-$mail->Username = "rafaelcarlosrc2014@gmail.com";
-$mail->Password = "sequelafx";
+$mail->Username = "vestibularsistemas@gmail.com";
+$mail->Password = "vestibularcatolica";
 
 
 //$mail->isMail();
 //$mail->isHTML(true);
-$mail->setFrom("rafaelcarlosrc2014@gmail.com", "Inscrição Vestibular");
-//$mail->From = "rafaelcarlosrc2014@gmail.com";
+$mail->setFrom("vestibularsistemas@gmail.com", "Inscrição Vestibular");
+//$mail->From = "vestibularsistemas@gmail.com";
 $mail->FromName = $nome;
 $mail->Subject = "Vestibular de Sistemas de Informação";
 $mail->addAddress($email);
