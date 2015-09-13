@@ -3,8 +3,8 @@ date_default_timezone_set('Etc/UTC');
 
 
 include "./phpmailer/PHPMailerAutoload.php";
-require_once "./phpmailer/class.phpmailer.php";
-require_once "./phpmailer/class.smtp.php";
+include "./phpmailer/class.phpmailer.php";
+include "./phpmailer/class.smtp.php";
 
 //$msg = null;
 //if(isset($_POST['enviaEmail']))
@@ -34,7 +34,7 @@ $mail->setFrom($email, "Inscrição Vestibular");
 $mail->From = "rafaelcarlosrc2014@gmail.com";
 $mail->FromName = $nome;
 $mail->Subject = "Vestibular de Sistemas de Informação";
-$mail->addAddress($destino);
+$mail->addAddress($email);
 $mail->msgHTML($mensagem);
 $mail->Body($mensagem);
 
