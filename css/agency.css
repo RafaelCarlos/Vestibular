@@ -16,6 +16,15 @@ body {
 .text-primary {
     color: #fed136;
 }
+.texto-mensagem{
+    font-size: 30px;
+    color: #FFFAFA;
+}
+.radio-editado{
+     font-size: 30px;
+    color: #FFFAFA;
+}
+
 
 p {
     font-size: 14px;
@@ -266,6 +275,18 @@ header {
     color: #fff;
     background-attachment: scroll;
     background-image: url(../img/header-bg.jpg);
+    background-position: center center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+eu-indico{
+    text-align: center;
+    color: #fff;
+    background-attachment: scroll;
+    background-image: url(../img/eu-indico.jpg.jpg);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;

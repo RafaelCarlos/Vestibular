@@ -56,6 +56,8 @@
                 }
             }
         </script>
+
+
     </head>
 
     <body id="page-top" class="index">
@@ -90,10 +92,13 @@
                             <a class="page-scroll" href="#about">About</a>
                         </li>
                         <li>
-                            <a class="page-scroll" href="#team">Team</a>
+                            <a class="page-scroll" href="#team">Time</a>
                         </li>
                         <li>
-                            <a class="page-scroll" href="#contact">Contact</a>
+                            <a class="page-scroll" href="#contact">Contato</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="#eu-indico">Eu Indico</a>
                         </li>
                     </ul>
                 </div>
@@ -169,6 +174,12 @@
                                 </div>
                             </div>
                             <img src="img/portfolio/roundicons.png" class="img-responsive" alt="">
+                            <!--                             <object width="425" height="350">
+                                                            <param name="movie" value="https://www.youtube.com/watch?v=o2pSLK4zjh8" />
+                                                            <embed src="https://www.youtube.com/watch?v=o2pSLK4zjh8" type="application/x-shockwave-flash" width="425" height="350" />
+                                                        </object>-->
+                                                        <!--<iframe allowfullscreen width="853" height="480" src="https://www.youtube.com/watch?v=o2pSLK4zjh8" frameborder="0" allowfullscreen></iframe>-->
+                            <!--<video src="https://www.youtube.com/watch?v=o2pSLK4zjh8" alt=""></video>-->
                         </a>
                         <div class="portfolio-caption">
                             <h4>Round Icons</h4>
@@ -335,37 +346,37 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 text-center">
-                        <h2 class="section-heading">Our Amazing Team</h2>
-                        <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                        <h2 class="section-heading">Time Sistemas</h2>
+                        <!--<h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>-->
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-sm-4">
                         <div class="team-member">
-                            <img src="img/team/1.jpg" class="img-responsive img-circle" alt="">
-                            <h4>Kay Garland</h4>
-                            <p class="text-muted">Lead Designer</p>
+                            <img src="img/team/image1.jpg" class="img-responsive img-circle" alt="">
+                            <h4>Rafael Carlos</h4>
+                            <p class="text-muted">Desenvolvimento Web</p>
                             <ul class="list-inline social-buttons">
-                                <li><a href="#"><i class="fa fa-twitter"></i></a>
+                                <li><a href="https://twitter.com/rafaellcarloss"><i class="fa fa-twitter"></i></a>
                                 </li>
-                                <li><a href="#"><i class="fa fa-facebook"></i></a>
+                                <li><a href="https://www.facebook.com/rafaellcarloss"><i class="fa fa-facebook"></i></a>
                                 </li>
-                                <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                                <li><a href="https://www.linkedin.com/profile/view?id=AAMAABY1EMcB14EvhlFLa2FSMKWr7qvavWdTjeo&trk=hp-identity-name"><i class="fa fa-linkedin"></i></a>
                                 </li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-sm-4">
                         <div class="team-member">
-                            <img src="img/team/2.jpg" class="img-responsive img-circle" alt="">
-                            <h4>Larry Parker</h4>
-                            <p class="text-muted">Lead Marketer</p>
+                            <img src="img/team/image2.jpg" class="img-responsive img-circle" alt="">
+                            <h4>Professor Silvano Malfatti</h4>
+                            <p class="text-muted">Gamer Developer</p>
                             <ul class="list-inline social-buttons">
-                                <li><a href="#"><i class="fa fa-twitter"></i></a>
+                                <li><a href="https://twitter.com/MalfattiTO"><i class="fa fa-twitter"></i></a>
                                 </li>
-                                <li><a href="#"><i class="fa fa-facebook"></i></a>
+                                <li><a href="https://www.facebook.com/silvano.malfatti"><i class="fa fa-facebook"></i></a>
                                 </li>
-                                <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                                <li><a href="https://www.linkedin.com/profile/view?id=AAMAABCze5MBsJLMIfvYavwQLUJIrVsInh98D7A&authType=name&authToken=EPnE&trk=hp-feed-member-photo"><i class="fa fa-linkedin"></i></a>
                                 </li>
                             </ul>
                         </div>
@@ -388,7 +399,7 @@
                 </div>
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2 text-center">
-                        <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
+                        <p class="large text-muted">Equipe de desenvolvimento do jogo e da página.</p>
                     </div>
                 </div>
             </div>
@@ -427,8 +438,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 text-center">
-                        <h2 class="section-heading">Contact Us</h2>
-                        <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                        <h2 class="section-heading">Entre em contato conosco</h2>
                     </div>
                 </div>
                 <div class="row">
@@ -437,22 +447,25 @@
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <input type="text" class="form-control" placeholder="Your Name *" id="name" name="nome" required data-validation-required-message="Please enter your name.">
+                                        <input type="text" class="form-control" placeholder="Seu Nome *" id="name" name="nome" required data-validation-required-message="Please enter your name.">
                                         <p class="help-block text-danger"></p>
                                     </div>
                                     <div class="form-group">
-                                        <input type="email" class="form-control" placeholder="Your Email *" id="email" name="email" required data-validation-required-message="Please enter your email address.">
+                                        <input type="email" class="form-control" placeholder="Seu Email *" id="email" name="email" required data-validation-required-message="Please enter your email address.">
                                         <p class="help-block text-danger"></p>
                                     </div>
                                     <div class="form-group">
-                                        <input type="tel" class="form-control" placeholder="Your Phone *" maxlength="15" id="phone" name="telefone" required data-validation-required-message="Please enter your phone number.">
+                                        <input type="tel" class="form-control" placeholder="Seu Telefone *" maxlength="15" id="phone" name="telefone" required data-validation-required-message="Please enter your phone number.">
                                         <p class="help-block text-danger"></p>
                                     </div>
-                                    <div class="form-group">
-                                        <input id="radio" type="radio" name="condicao" value="Sim">Sim<br>
-                                        <input id="radio" type="radio" name="condicao" value="Nao">Não
-                                         <p class="help-block text-danger"></p>
-                                        
+                                    <div class="texto-mensagem">
+                                        <h5> Deseja concorrer a uma inscrição para o Vestibular de Sistemas de Informação?</h5>
+                                    </div>
+                                    <div class="radio-editado">
+                                        <h5><input   id="radiocond" type="radio" name="condicao" value="Sim">Sim </h5> 
+                                        <h5> <input   id="radicond2" type="radio" name="condicao" value="Nao">Não</h5> 
+                                        <p class="help-block text-danger"></p>
+
                                     </div><!-- /.col-lg-6 -->
                                 </div><!-- /.row -->
                             </div>
@@ -465,26 +478,35 @@
                             <div class="clearfix"></div>
                             <div class="col-lg-12 text-center">
                                 <div id="success"></div>
-                                <button name="enviaEmail" type="submit" class="btn btn-xl">Send Message</button>
+                                <button name="enviaEmail" type="submit" class="btn btn-xl">Enviar</button>
                             </div>
-                    </form>
+                        </form>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+        
+        <section id="eu-indico">
+            <div class="container">
+                <div class="row">
+                    
+                    <img alt=""  src="img/eu-indico.jpg" />
+                </div>
+            </div>
+        </section>
 
     <footer>
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <span class="copyright">Copyright &copy; Your Website 2015</span>
+                    <span class="copyright">Copyright &copy; Sistemas de Informação - Faculdade Católica do Tocantins 2015</span>
                 </div>
                 <div class="col-md-4">
                     <ul class="list-inline social-buttons">
                         <li><a href="#"><i class="fa fa-twitter"></i></a>
                         </li>
-                        <li><a href="#"><i class="fa fa-facebook"></i></a>
+                        <li><a href="https://www.facebook.com/siCatolicaTocantins"><i class="fa fa-facebook"></i></a>
                         </li>
                         <li><a href="#"><i class="fa fa-linkedin"></i></a>
                         </li>
@@ -492,10 +514,10 @@
                 </div>
                 <div class="col-md-4">
                     <ul class="list-inline quicklinks">
-                        <li><a href="#">Privacy Policy</a>
+                        <li><a href="http://www.catolica-to.edu.br">Católica do Tocantins</a>
                         </li>
-                        <li><a href="#">Terms of Use</a>
-                        </li>
+<!--                        <li><a href="#">Terms of Use</a>
+                        </li>-->
                     </ul>
                 </div>
             </div>

@@ -12,7 +12,6 @@ include "./phpmailer/class.smtp.php";
 $nome = (trim($_POST['nome']));
 $email = (trim($_POST['email']));
 $telefone = (trim($_POST['telefone']));
-$mensagem = (trim($_POST['mensagem']));
 $concorrer = (trim($_POST['condicao']));
 $destino = "rafaelcarlosrc2014@gmail.com";
 
@@ -41,7 +40,9 @@ $mail->msgHTML($mensagem);
 $mail->Body = "<h1>". "Dados cadastrados"."</h1>". "<br/>". "Nome: "  .$nome ."." .'<br/>' . " Email: ". $email .".". '<br/>' . 
          "Deseja concorrer a uma inscrição do Vestibular? " . $concorrer ."." ;
 
+
 $mail->send();
+//header('location:index.php');
 
 //send the message, check for errors
 //if (!$mail->send()) {
