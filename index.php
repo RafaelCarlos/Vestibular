@@ -520,6 +520,43 @@
                                                 </li>-->
                     </ul>
                 </div>
+                <!-- CODIGO DO BOTÃO DE CURTIR DO FACEBOOK -->
+                <div style='width:205px;float:left;margin:1px 4px 2px 3px;height:20px;'>
+<!--                    <script type="text/javascript">
+                urlb = https://www.facebook.com/siCatolicaTocantins;
+                    document.write("<iframe src='//www.facebook.com/plugins/like.php?href=" + urlb + "&amp;layout=button_count&amp;action=like&amp;font=arial' scrolling='no' frameborder='0' allowtransparency='true' style='width:90px;overflow:hidden;height:20px;'></iframe>");
+                    </script>-->
+<!--                    <iframe src="http://www.facebook.com/plugins/like.php?href=https://www.facebook.com/siCatolicaTocantins&layout=standard&
+                            show_faces=false&width=380&action=like&colorscheme=light&height=25&locale=pt_BR" scrolling="no" frameborder="0" 
+                            style="border:none; overflow:hidden; width:250px; height:25px;" allowTransparency="true">
+                                
+                    </iframe>-->
+
+                    <!--             Facebook       <div id="fb-root"></div>
+                                        <script>(function (d, s, id) {
+                                                var js, fjs = d.getElementsByTagName(s)[0];
+                                                if (d.getElementById(id))
+                                                    return;
+                                                js = d.createElement(s);
+                                                js.id = id;
+                                                js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.4";
+                                                fjs.parentNode.insertBefore(js, fjs);
+                                            }(document, 'script', 'facebook-jssdk'));</script>
+                    
+                                        <div class="fb-like" ></div>-->
+
+                    
+                    <a name = "fb_share"></a>
+<script src="http://static.ak.fbcdn.net/connect.php/js/FB.Share" type="text/javascript"></script> 
+
+
+
+
+                    <script src='//platform.twitter.com/widgets.js' type='text/javascript'>
+                    </script>
+                    <div style='float:left;width:110px;'>
+                        <a class='twitter-share-button' data-via='meuusuario' href='//twitter.com/share' rel='nofollow' title='tweet'></a></div></div>
+
             </div>
         </div>
     </footer>
