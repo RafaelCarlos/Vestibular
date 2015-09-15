@@ -173,7 +173,7 @@
                                     <i class="fa fa-plus fa-3x"></i>
                                 </div>
                             </div>
-                            <img src="img/portfolio/roundicons.png" class="img-responsive" alt="">
+                            <img src="img/portfolio/rincon.png" class="img-responsive" alt="">
                             <!--                             <object width="425" height="350">
                                                             <param name="movie" value="https://www.youtube.com/watch?v=o2pSLK4zjh8" />
                                                             <embed src="https://www.youtube.com/watch?v=o2pSLK4zjh8" type="application/x-shockwave-flash" width="425" height="350" />
@@ -182,7 +182,7 @@
                             <!--<video src="https://www.youtube.com/watch?v=o2pSLK4zjh8" alt=""></video>-->
                         </a>
                         <div class="portfolio-caption">
-                            <h4>Round Icons</h4>
+                            <h4>Professor da Católica tem projeto tecnológico premiado</h4>
                             <p class="text-muted">Graphic Design</p>
                         </div>
                     </div>
@@ -486,15 +486,15 @@
             </div>
         </div>
     </section>
-        
-        <section id="eu-indico">
-            <div class="container">
-                <div class="row">
-                    
-                    <img alt=""  src="img/eu-indico.jpg" />
-                </div>
+
+    <section id="eu-indico">
+        <div class="container">
+            <div class="row">
+
+                <img alt=""  src="img/eu-indico.jpg" />
             </div>
-        </section>
+        </div>
+    </section>
 
     <footer>
         <div class="container">
@@ -516,8 +516,8 @@
                     <ul class="list-inline quicklinks">
                         <li><a href="http://www.catolica-to.edu.br">Católica do Tocantins</a>
                         </li>
-<!--                        <li><a href="#">Terms of Use</a>
-                        </li>-->
+                        <!--                        <li><a href="#">Terms of Use</a>
+                                                </li>-->
                     </ul>
                 </div>
             </div>
@@ -541,10 +541,18 @@
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
                             <!-- Project Details Go Here -->
-                            <h2>Project Name</h2>
-                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                            <img class="img-responsive img-centered" src="img/portfolio/roundicons-free.png" alt="">
-                            <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                            <h2>Desenvolvimento de um Catálogo Automatizado com Informações de Produtores Rurais da Agricultura Familiar ou Orgânica</h2>
+                            <!--<p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>-->
+                            <img class="img-responsive img-centered" src="img/portfolio/andre-img.png" alt="">
+                            <p>
+                                Mais um professor da Católica do Tocantins foi premiado. Dessa vez, quem  conquistou o 2º lugar, concorrendo com professores do Brasil inteiro, foi o Professor Mestre, André Rincon. O Professor foi premiado na Categoria  Econômica/Tecnológica dos Prêmios Professor Bechimol e Banco da Amazônia de Empreendedorismo Consciente. O Prêmio tem como um de seus objetivos promover a reflexão e propor ações sobre as perspectivas econômicas científicas, tecnológicas, ambientais, sociais e de empreendedorismo para o desenvolvimento sustentável da Região Amazônica.
+
+                                O projeto criado pelo professor ​t​em como título “Desenvolvimento de um Catálogo Automatizado com Informações de Produtores Rurais da Agricultura Familiar ou Orgânica”, e tem por finalidade o desenvolvimento de um cat​á​lago automatizado, por meio de aplicativo móbil e sistema web, para disponibilização de informações consolidadas e de fácil acesso que venha​m​ potencializar os canais de distribuição dos produtores rurais da Agricultura Familiar ou Orgânica do Estado do Tocantins. O aplicativo beneficiará os feirantes e cooperativas que terão os seus produtos conhecidos por meio do aplicativo.
+
+                                Sobre a premiação o professor afirmou estar feliz pelo reconhecimento de seu projeto. “Estou muito feliz pelo reconhecimento e importância do projeto para o desenvolvimento da agricultura familiar e orgânica do Estado do Tocantins”, contou André, que também falou sobre o peso de ter o seu projeto premiado em um grande prêmio. “A premiação faz com que o  projeto seja reconhecido e assim facilita a abertura de portas para mais parceiros permitindo a continuidade do projeto​"​.
+
+                                O projeto já ​se ​encontra em execução no Núcleo de Tecnologia da Informação da Faculdade Católica do Tocantins e a previsão de início da utilização do sistema é para m​aio de 2015.
+                            </p>
                             <p>
                                 <strong>Want these icons in this portfolio item sample?</strong>You can download 60 of them for free, courtesy of <a href="https://getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc">RoundIcons.com</a>, or you can purchase the 1500 icon set <a href="https://getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc">here</a>.</p>
                             <ul class="list-inline">
