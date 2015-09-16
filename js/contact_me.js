@@ -1,6 +1,6 @@
 $(function() {
 
-    $("input,radio").jqBootstrapValidation({
+    $("input").jqBootstrapValidation({
         preventSubmit: true,
         submitError: function($form, event, errors) {
             // additional error messages or events
@@ -21,10 +21,10 @@ $(function() {
                 url: "././mail/contact_me.php",
                 type: "POST",
                 data: {
-                    name: name,
-                    phone: phone,
+                    nome: name,
+                    telefone: phone,
                     email: email,
-                    radiocond: radiocond
+                    condicao: radiocond
                 },
                 cache: false,
                 success: function() {

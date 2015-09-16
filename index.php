@@ -108,12 +108,10 @@
         </nav>
 
         <!-- Header -->
-        <header>
+        <header >
             <div class="container">
                 <div class="intro-text">
-                    <div class="intro-lead-in">Seja bem vindo a página do Vestibular de Sistemas de Informação!</div>
-                    <div class="intro-heading">Tenha o mundo em suas mãos</div>
-                    <a href="#services" class="page-scroll btn btn-xl">Tell Me More</a>
+                    <a href="#services" class="page-scroll btn btn-xl">Seja Bem-Vindo</a>
                 </div>
             </div>
         </header>
@@ -383,19 +381,65 @@
                     </div>
                     <div class="col-sm-4">
                         <div class="team-member">
-                            <img src="img/team/3.jpg" class="img-responsive img-circle" alt="">
-                            <h4>Diana Pertersen</h4>
-                            <p class="text-muted">Lead Developer</p>
+                            <img src="img/team/capistrano.png" class="img-responsive img-circle" alt="">
+                            <h4>Carlos Henrique Capistrano</h4>
+                            <p class="text-muted">Servidor Web</p>
                             <ul class="list-inline social-buttons">
                                 <li><a href="#"><i class="fa fa-twitter"></i></a>
                                 </li>
-                                <li><a href="#"><i class="fa fa-facebook"></i></a>
+                                <li><a href="https://www.facebook.com/carloshenrique.costacapistrano.3"><i class="fa fa-facebook"></i></a>
                                 </li>
                                 <li><a href="#"><i class="fa fa-linkedin"></i></a>
                                 </li>
                             </ul>
                         </div>
                     </div>
+                    <div class="col-sm-4">
+                        <div class="team-member">
+                            <img src="img/team/fernando.jpg" class="img-responsive img-circle" alt="">
+                            <h4>Fernando Angelo</h4>
+                            <p class="text-muted">Design</p>
+                            <ul class="list-inline social-buttons">
+                                <li><a href="https://twitter.com/nandoangelo"><i class="fa fa-twitter"></i></a>
+                                </li>
+                                <li><a href="https://www.facebook.com/nandoangelo"><i class="fa fa-facebook"></i></a>
+                                </li>
+                                <li><a href="https://www.linkedin.com/profile/view?id=ADEAAAbWjR0Bz7v8BAkxPVDQjl6Crrr74aGkrsM&authType=NAME_SEARCH&authToken=fvfO&locale=pt_BR&srchid=3725764551442375721065&srchindex=1&srchtotal=605&trk=vsrp_people_res_name&trkInfo=VSRPsearchId%3A3725764551442375721065%2CVSRPtargetId%3A114724125%2CVSRPcmpt%3Aprimary%2CVSRPnm%3Atrue%2CauthType%3ANAME_SEARCH"><i class="fa fa-linkedin"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="team-member">
+                            <img src="img/team/jorge.jpg" class="img-responsive img-circle" alt="">
+                            <h4>Jorge Lucas</h4>
+                            <p class="text-muted">Desenvolvimento Web</p>
+                            <ul class="list-inline social-buttons">
+                                <li><a href="#"><i class="fa fa-twitter"></i></a>
+                                </li>
+                                <li><a href="https://www.facebook.com/jorgelucasl91"><i class="fa fa-facebook"></i></a>
+                                </li>
+                                <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="team-member">
+                            <img src="img/team/vinicio.jpg" class="img-responsive img-circle" alt="">
+                            <h4>Vinicio Cerqueira</h4>
+                            <p class="text-muted">Desenvolvimento Web</p>
+                            <ul class="list-inline social-buttons">
+                                <li><a href="https://twitter.com/viniciocm"><i class="fa fa-twitter"></i></a>
+                                </li>
+                                <li><a href="https://www.facebook.com/vinicio.cerqueira"><i class="fa fa-facebook"></i></a>
+                                </li>
+                                <li><a href="https://www.linkedin.com/profile/view?id=AAkAAAk5OPkB_Wzze_mS8_AUBHIbpMHN1fYKDfc&authType=NAME_SEARCH&authToken=-jHv&locale=pt_BR&trk=tyah&trkInfo=clickedVertical%3Amynetwork%2CclickedEntityId%3A154745081%2CauthType%3ANAME_SEARCH%2Cidx%3A1-1-1%2CtarId%3A1442377126620%2Ctas%3AVinicio%20Cerque"><i class="fa fa-linkedin"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
                 </div>
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2 text-center">
@@ -404,34 +448,6 @@
                 </div>
             </div>
         </section>
-
-        <!-- Clients Aside -->
-        <aside class="clients">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-3 col-sm-6">
-                        <a href="#">
-                            <img src="img/logos/envato.jpg" class="img-responsive img-centered" alt="">
-                        </a>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                        <a href="#">
-                            <img src="img/logos/designmodo.jpg" class="img-responsive img-centered" alt="">
-                        </a>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                        <a href="#">
-                            <img src="img/logos/themeforest.jpg" class="img-responsive img-centered" alt="">
-                        </a>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                        <a href="#">
-                            <img src="img/logos/creative-market.jpg" class="img-responsive img-centered" alt="">
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </aside>
 
         <!-- Contact Section -->
         <section id="contact">
@@ -463,7 +479,7 @@
                                     </div>
                                     <div class="radio-editado">
                                         <h5><input   id="radiocond" type="radio" name="condicao" value="Sim">Sim </h5> 
-                                        <h5> <input   id="radicond2" type="radio" name="condicao" value="Nao">Não</h5> 
+                                        <h5> <input   id="radiocond" type="radio" name="condicao" value="Nao">Não</h5> 
                                         <p class="help-block text-danger"></p>
 
                                     </div><!-- /.col-lg-6 -->
@@ -484,279 +500,277 @@
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+            <!--</div>-->
+        </section>
 
-    <section id="eu-indico">
-        <div class="container">
-            <div class="row">
+        <section id="eu-indico">
+            <div class="container">
+                <div class="row">
 
-                <img alt=""  src="img/eu-indico.jpg" />
-            </div>
-        </div>
-    </section>
-
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <span class="copyright">Copyright &copy; Sistemas de Informação - Faculdade Católica do Tocantins 2015</span>
+                    <img alt=""  src="img/eu-indico.jpg" class="img-responsive" />
                 </div>
-                <div class="col-md-4">
+            </div>
+        </section>
+
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <span class="copyright">Copyright &copy; Sistemas de Informação - Faculdade Católica do Tocantins 2015</span>
+                    </div>
+                    <div class="col-md-4">
+                        <ul class="list-inline social-buttons">
+                            <li><a href="#"><i class="fa fa-twitter"></i></a>
+                            </li>
+                            <li><a href="https://www.facebook.com/siCatolicaTocantins"><i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <ul class="list-inline quicklinks">
+                            <li><a href="http://www.catolica-to.edu.br">Católica do Tocantins</a>
+                            </li>
+                            <!--                        <li><a href="#">Terms of Use</a>
+                                                    </li>-->
+                        </ul>
+                    </div>
+                    <!-- CODIGO DO BOTÃO DE CURTIR DO FACEBOOK -->
                     <ul class="list-inline social-buttons">
-                        <li><a href="#"><i class="fa fa-twitter"></i></a>
-                        </li>
-                        <li><a href="https://www.facebook.com/siCatolicaTocantins"><i class="fa fa-facebook"></i></a>
-                        </li>
-                        <li><a href="#"><i class="fa fa-linkedin"></i></a>
-                        </li>
+                        <div style='width:205px;float:left;margin:1px 4px 2px 3px;height:20px;'>
+        <!--                    <script type="text/javascript">
+                        urlb = https://www.facebook.com/siCatolicaTocantins;
+                            document.write("<iframe src='//www.facebook.com/plugins/like.php?href=" + urlb + "&amp;layout=button_count&amp;action=like&amp;font=arial' scrolling='no' frameborder='0' allowtransparency='true' style='width:90px;overflow:hidden;height:20px;'></iframe>");
+                            </script>-->
+        <!--                    <iframe src="http://www.facebook.com/plugins/like.php?href=https://www.facebook.com/siCatolicaTocantins&layout=standard&
+                                    show_faces=false&width=380&action=like&colorscheme=light&height=25&locale=pt_BR" scrolling="no" frameborder="0" 
+                                    style="border:none; overflow:hidden; width:250px; height:25px;" allowTransparency="true">
+                                        
+                            </iframe>-->
+
+                            <!--             Facebook       <div id="fb-root"></div>
+                                                <script>(function (d, s, id) {
+                                                        var js, fjs = d.getElementsByTagName(s)[0];
+                                                        if (d.getElementById(id))
+                                                            return;
+                                                        js = d.createElement(s);
+                                                        js.id = id;
+                                                        js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.4";
+                                                        fjs.parentNode.insertBefore(js, fjs);
+                                                    }(document, 'script', 'facebook-jssdk'));</script>
+                            
+                                                <div class="fb-like" ></div>-->
+
+
+                            <a name = "fb_share"></a>
+                            <script src="http://static.ak.fbcdn.net/connect.php/js/FB.Share" type="text/javascript"></script> 
+
+                            <script src='//platform.twitter.com/widgets.js' type='text/javascript'>
+                            </script>
+                            <div style='float:left;width:110px;'>
+                                <a class='twitter-share-button' data-via='meuusuario' href='//twitter.com/share' rel='nofollow' title='tweet'></a></div></div>
                     </ul>
                 </div>
-                <div class="col-md-4">
-                    <ul class="list-inline quicklinks">
-                        <li><a href="http://www.catolica-to.edu.br">Católica do Tocantins</a>
-                        </li>
-                        <!--                        <li><a href="#">Terms of Use</a>
-                                                </li>-->
-                    </ul>
-                </div>
-                <!-- CODIGO DO BOTÃO DE CURTIR DO FACEBOOK -->
-                <div style='width:205px;float:left;margin:1px 4px 2px 3px;height:20px;'>
-<!--                    <script type="text/javascript">
-                urlb = https://www.facebook.com/siCatolicaTocantins;
-                    document.write("<iframe src='//www.facebook.com/plugins/like.php?href=" + urlb + "&amp;layout=button_count&amp;action=like&amp;font=arial' scrolling='no' frameborder='0' allowtransparency='true' style='width:90px;overflow:hidden;height:20px;'></iframe>");
-                    </script>-->
-<!--                    <iframe src="http://www.facebook.com/plugins/like.php?href=https://www.facebook.com/siCatolicaTocantins&layout=standard&
-                            show_faces=false&width=380&action=like&colorscheme=light&height=25&locale=pt_BR" scrolling="no" frameborder="0" 
-                            style="border:none; overflow:hidden; width:250px; height:25px;" allowTransparency="true">
-                                
-                    </iframe>-->
-
-                    <!--             Facebook       <div id="fb-root"></div>
-                                        <script>(function (d, s, id) {
-                                                var js, fjs = d.getElementsByTagName(s)[0];
-                                                if (d.getElementById(id))
-                                                    return;
-                                                js = d.createElement(s);
-                                                js.id = id;
-                                                js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.4";
-                                                fjs.parentNode.insertBefore(js, fjs);
-                                            }(document, 'script', 'facebook-jssdk'));</script>
-                    
-                                        <div class="fb-like" ></div>-->
-
-                    
-                    <a name = "fb_share"></a>
-<script src="http://static.ak.fbcdn.net/connect.php/js/FB.Share" type="text/javascript"></script> 
-
-
-
-
-                    <script src='//platform.twitter.com/widgets.js' type='text/javascript'>
-                    </script>
-                    <div style='float:left;width:110px;'>
-                        <a class='twitter-share-button' data-via='meuusuario' href='//twitter.com/share' rel='nofollow' title='tweet'></a></div></div>
-
             </div>
-        </div>
-    </footer>
+        </footer>
 
-    <!-- Portfolio Modals -->
-    <!-- Use the modals below to showcase details about your portfolio projects! -->
+        <!-- Portfolio Modals -->
+        <!-- Use the modals below to showcase details about your portfolio projects! -->
 
-    <!-- Portfolio Modal 1 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
+        <!-- Portfolio Modal 1 -->
+        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h2>Desenvolvimento de um Catálogo Automatizado com Informações de Produtores Rurais da Agricultura Familiar ou Orgânica</h2>
-                            <!--<p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>-->
-                            <img class="img-responsive img-centered" src="img/portfolio/andre-img.png" alt="">
-                            <p>
-                                Mais um professor da Católica do Tocantins foi premiado. Dessa vez, quem  conquistou o 2º lugar, concorrendo com professores do Brasil inteiro, foi o Professor Mestre, André Rincon. O Professor foi premiado na Categoria  Econômica/Tecnológica dos Prêmios Professor Bechimol e Banco da Amazônia de Empreendedorismo Consciente. O Prêmio tem como um de seus objetivos promover a reflexão e propor ações sobre as perspectivas econômicas científicas, tecnológicas, ambientais, sociais e de empreendedorismo para o desenvolvimento sustentável da Região Amazônica.
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2>Desenvolvimento de um Catálogo Automatizado com Informações de Produtores Rurais da Agricultura Familiar ou Orgânica</h2>
+                                <!--<p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>-->
+                                <img class="img-responsive img-centered" src="img/portfolio/andre-img.png" alt="">
+                                <p>
+                                    Mais um professor da Católica do Tocantins foi premiado. Dessa vez, quem  conquistou o 2º lugar, concorrendo com professores do Brasil inteiro, foi o Professor Mestre, André Rincon. O Professor foi premiado na Categoria  Econômica/Tecnológica dos Prêmios Professor Bechimol e Banco da Amazônia de Empreendedorismo Consciente. O Prêmio tem como um de seus objetivos promover a reflexão e propor ações sobre as perspectivas econômicas científicas, tecnológicas, ambientais, sociais e de empreendedorismo para o desenvolvimento sustentável da Região Amazônica.
 
-                                O projeto criado pelo professor ​t​em como título “Desenvolvimento de um Catálogo Automatizado com Informações de Produtores Rurais da Agricultura Familiar ou Orgânica”, e tem por finalidade o desenvolvimento de um cat​á​lago automatizado, por meio de aplicativo móbil e sistema web, para disponibilização de informações consolidadas e de fácil acesso que venha​m​ potencializar os canais de distribuição dos produtores rurais da Agricultura Familiar ou Orgânica do Estado do Tocantins. O aplicativo beneficiará os feirantes e cooperativas que terão os seus produtos conhecidos por meio do aplicativo.
+                                    O projeto criado pelo professor ​t​em como título “Desenvolvimento de um Catálogo Automatizado com Informações de Produtores Rurais da Agricultura Familiar ou Orgânica”, e tem por finalidade o desenvolvimento de um cat​á​lago automatizado, por meio de aplicativo móbil e sistema web, para disponibilização de informações consolidadas e de fácil acesso que venha​m​ potencializar os canais de distribuição dos produtores rurais da Agricultura Familiar ou Orgânica do Estado do Tocantins. O aplicativo beneficiará os feirantes e cooperativas que terão os seus produtos conhecidos por meio do aplicativo.
 
-                                Sobre a premiação o professor afirmou estar feliz pelo reconhecimento de seu projeto. “Estou muito feliz pelo reconhecimento e importância do projeto para o desenvolvimento da agricultura familiar e orgânica do Estado do Tocantins”, contou André, que também falou sobre o peso de ter o seu projeto premiado em um grande prêmio. “A premiação faz com que o  projeto seja reconhecido e assim facilita a abertura de portas para mais parceiros permitindo a continuidade do projeto​"​.
+                                    Sobre a premiação o professor afirmou estar feliz pelo reconhecimento de seu projeto. “Estou muito feliz pelo reconhecimento e importância do projeto para o desenvolvimento da agricultura familiar e orgânica do Estado do Tocantins”, contou André, que também falou sobre o peso de ter o seu projeto premiado em um grande prêmio. “A premiação faz com que o  projeto seja reconhecido e assim facilita a abertura de portas para mais parceiros permitindo a continuidade do projeto​"​.
 
-                                O projeto já ​se ​encontra em execução no Núcleo de Tecnologia da Informação da Faculdade Católica do Tocantins e a previsão de início da utilização do sistema é para m​aio de 2015.
-                            </p>
-                            <p>
-                                <strong>Want these icons in this portfolio item sample?</strong>You can download 60 of them for free, courtesy of <a href="https://getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc">RoundIcons.com</a>, or you can purchase the 1500 icon set <a href="https://getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc">here</a>.</p>
-                            <ul class="list-inline">
-                                <li>Date: July 2014</li>
-                                <li>Client: Round Icons</li>
-                                <li>Category: Graphic Design</li>
-                            </ul>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                                    O projeto já ​se ​encontra em execução no Núcleo de Tecnologia da Informação da Faculdade Católica do Tocantins e a previsão de início da utilização do sistema é para m​aio de 2015.
+                                </p>
+                                <p>
+                                    <strong>Want these icons in this portfolio item sample?</strong>You can download 60 of them for free, courtesy of <a href="https://getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc">RoundIcons.com</a>, or you can purchase the 1500 icon set <a href="https://getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc">here</a>.</p>
+                                <ul class="list-inline">
+                                    <li>Date: July 2014</li>
+                                    <li>Client: Round Icons</li>
+                                    <li>Category: Graphic Design</li>
+                                </ul>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
 
-    <!-- Portfolio Modal 2 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
+        <!-- Portfolio Modal 2 -->
+        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Project Heading</h2>
-                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                            <img class="img-responsive img-centered" src="img/portfolio/startup-framework-preview.png" alt="">
-                            <p><a href="http://designmodo.com/startup/?u=787">Startup Framework</a> is a website builder for professionals. Startup Framework contains components and complex blocks (PSD+HTML Bootstrap themes and templates) which can easily be integrated into almost any design. All of these components are made in the same style, and can easily be integrated into projects, allowing you to create hundreds of solutions for your future projects.</p>
-                            <p>You can preview Startup Framework <a href="http://designmodo.com/startup/?u=787">here</a>.</p>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <h2>Project Heading</h2>
+                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                <img class="img-responsive img-centered" src="img/portfolio/startup-framework-preview.png" alt="">
+                                <p><a href="http://designmodo.com/startup/?u=787">Startup Framework</a> is a website builder for professionals. Startup Framework contains components and complex blocks (PSD+HTML Bootstrap themes and templates) which can easily be integrated into almost any design. All of these components are made in the same style, and can easily be integrated into projects, allowing you to create hundreds of solutions for your future projects.</p>
+                                <p>You can preview Startup Framework <a href="http://designmodo.com/startup/?u=787">here</a>.</p>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
 
-    <!-- Portfolio Modal 3 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
+        <!-- Portfolio Modal 3 -->
+        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h2>Project Name</h2>
-                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                            <img class="img-responsive img-centered" src="img/portfolio/treehouse-preview.png" alt="">
-                            <p>Treehouse is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. This is bright and spacious design perfect for people or startup companies looking to showcase their apps or other projects.</p>
-                            <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/treehouse-free-psd-web-template/">FreebiesXpress.com</a>.</p>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2>Project Name</h2>
+                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                <img class="img-responsive img-centered" src="img/portfolio/treehouse-preview.png" alt="">
+                                <p>Treehouse is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. This is bright and spacious design perfect for people or startup companies looking to showcase their apps or other projects.</p>
+                                <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/treehouse-free-psd-web-template/">FreebiesXpress.com</a>.</p>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
 
-    <!-- Portfolio Modal 4 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
+        <!-- Portfolio Modal 4 -->
+        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h2>Project Name</h2>
-                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                            <img class="img-responsive img-centered" src="img/portfolio/golden-preview.png" alt="">
-                            <p>Start Bootstrap's Agency theme is based on Golden, a free PSD website template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Golden is a modern and clean one page web template that was made exclusively for Best PSD Freebies. This template has a great portfolio, timeline, and meet your team sections that can be easily modified to fit your needs.</p>
-                            <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/golden-free-one-page-web-template/">FreebiesXpress.com</a>.</p>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2>Project Name</h2>
+                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                <img class="img-responsive img-centered" src="img/portfolio/golden-preview.png" alt="">
+                                <p>Start Bootstrap's Agency theme is based on Golden, a free PSD website template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Golden is a modern and clean one page web template that was made exclusively for Best PSD Freebies. This template has a great portfolio, timeline, and meet your team sections that can be easily modified to fit your needs.</p>
+                                <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/golden-free-one-page-web-template/">FreebiesXpress.com</a>.</p>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
 
-    <!-- Portfolio Modal 5 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
+        <!-- Portfolio Modal 5 -->
+        <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h2>Project Name</h2>
-                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                            <img class="img-responsive img-centered" src="img/portfolio/escape-preview.png" alt="">
-                            <p>Escape is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Escape is a one page web template that was designed with agencies in mind. This template is ideal for those looking for a simple one page solution to describe your business and offer your services.</p>
-                            <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/escape-one-page-psd-web-template/">FreebiesXpress.com</a>.</p>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2>Project Name</h2>
+                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                <img class="img-responsive img-centered" src="img/portfolio/escape-preview.png" alt="">
+                                <p>Escape is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Escape is a one page web template that was designed with agencies in mind. This template is ideal for those looking for a simple one page solution to describe your business and offer your services.</p>
+                                <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/escape-one-page-psd-web-template/">FreebiesXpress.com</a>.</p>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
 
-    <!-- Portfolio Modal 6 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
+        <!-- Portfolio Modal 6 -->
+        <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h2>Project Name</h2>
-                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                            <img class="img-responsive img-centered" src="img/portfolio/dreams-preview.png" alt="">
-                            <p>Dreams is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Dreams is a modern one page web template designed for almost any purpose. It’s a beautiful template that’s designed with the Bootstrap framework in mind.</p>
-                            <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/dreams-free-one-page-web-template/">FreebiesXpress.com</a>.</p>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2>Project Name</h2>
+                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                <img class="img-responsive img-centered" src="img/portfolio/dreams-preview.png" alt="">
+                                <p>Dreams is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Dreams is a modern one page web template designed for almost any purpose. It’s a beautiful template that’s designed with the Bootstrap framework in mind.</p>
+                                <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/dreams-free-one-page-web-template/">FreebiesXpress.com</a>.</p>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
 
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+        <!-- jQuery -->
+        <script src="js/jquery.js"></script>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+        <!-- Bootstrap Core JavaScript -->
+        <script src="js/bootstrap.min.js"></script>
 
-    <!-- Plugin JavaScript -->
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-    <script src="js/classie.js"></script>
-    <script src="js/cbpAnimatedHeader.js"></script>
+        <!-- Plugin JavaScript -->
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+        <script src="js/classie.js"></script>
+        <script src="js/cbpAnimatedHeader.js"></script>
 
-    <!-- Contact Form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
+        <!-- Contact Form JavaScript -->
+        <script src="js/jqBootstrapValidation.js"></script>
+        <script src="js/contact_me.js"></script>
 
-    <!-- Custom Theme JavaScript -->
-    <script src="js/agency.js"></script>
+        <!-- Custom Theme JavaScript -->
+        <script src="js/agency.js"></script>
 
-</body>
+    </body>
 
 </html>

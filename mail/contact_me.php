@@ -38,18 +38,10 @@ $mail->addAddress($email);
 $mail->msgHTML($mensagem);
 //$mail->Body("TExto");
 $mail->Body = "<h1>". "Dados cadastrados"."</h1>". "<br/>". "Nome: "  .$nome ."." .'<br/>' . " Email: ". $email .".". '<br/>' . 
+        "Telefone: ". $telefone .".". '<br/>' .
          "Deseja concorrer a uma inscrição do Vestibular? " . $concorrer ."." ;
 
 
 $mail->send();
-//header('location:index.php');
 
-//send the message, check for errors
-//if (!$mail->send()) {
-//    echo "Mailer Error: " . $mail->ErrorInfo;
-//} else {
-//    echo "Message sent!";
-//}
-
-//}
 ?>

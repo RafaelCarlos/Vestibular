@@ -275,6 +275,8 @@ header {
     color: #fff;
     background-attachment: scroll;
     background-image: url(../img/header-bg.jpg);
+    height: auto;
+    width: auto;
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
