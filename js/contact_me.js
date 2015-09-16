@@ -1,11 +1,11 @@
-$(function() {
+$(function () {
 
     $("input").jqBootstrapValidation({
         preventSubmit: true,
-        submitError: function($form, event, errors) {
+        submitError: function ($form, event, errors) {
             // additional error messages or events
         },
-        submitSuccess: function($form, event) {
+        submitSuccess: function ($form, event) {
             event.preventDefault(); // prevent default submit behaviour
             // get values from FORM
             var name = $("input#name").val();
@@ -27,36 +27,44 @@ $(function() {
                     condicao: radiocond
                 },
                 cache: false,
-                success: function() {
+                success: function () {
                     // Success message
                     $('#success').html("<div class='alert alert-success'>");
                     $('#success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
-                        .append("</button>");
+                            .append("</button>");
                     $('#success > .alert-success')
-                        .append("<strong>Enviado com sucesso! </strong>");
+                            .append("<strong>Enviado com sucesso! </strong>");
                     $('#success > .alert-success')
-                        .append('</div>');
+                            .append('</div>');
+                    
+                    window.setTimeout(6000);
 
                     //clear all fields
                     $('#contactForm').trigger("reset");
-                    $(location.reload());
+                    
+//                    var explode = function () {
+//                        alert("Dados enviados com sucesso!");
+//                    };
+//                    setTimeout(explode, 5000);
+                    
+                    $(location.reload(), setTimeout(5000) );
 //                    atualizar();
 //                    window.location.reload();
-                    
+
                 },
-                error: function() {
+                error: function () {
                     // Fail message
                     $('#success').html("<div class='alert alert-danger'>");
                     $('#success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
-                        .append("</button>");
-                    $('#success > .alert-danger').append("<strong>Sorry " + firstName + ", it seems that my mail server is not responding. Please try again later!");
+                            .append("</button>");
+                    $('#success > .alert-danger').append("<strong>Desculpe " + firstName + ", nosso servirdor não está funcionando no momento. Por favor, tente novamente mais tarde!");
                     $('#success > .alert-danger').append('</div>');
                     //clear all fields
                     $('#contactForm').trigger("reset");
                 },
             })
         },
-        filter: function() {
+        filter: function () {
             return $(this).is(":visible");
         },
 //        atualizar: function ()
@@ -65,7 +73,7 @@ $(function() {
 //        },
     });
 
-    $("a[data-toggle=\"tab\"]").click(function(e) {
+    $("a[data-toggle=\"tab\"]").click(function (e) {
         e.preventDefault();
         $(this).tab("show");
     });
@@ -73,6 +81,6 @@ $(function() {
 
 
 /*When clicking on Full hide fail/success boxes */
-$('#name').focus(function() {
+$('#name').focus(function () {
     $('#success').html('');
 });

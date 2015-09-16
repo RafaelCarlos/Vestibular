@@ -34,7 +34,8 @@ $mail->setFrom("vestibularsistemas@gmail.com", "Inscrição Vestibular");
 //$mail->From = "vestibularsistemas@gmail.com";
 $mail->FromName = $nome;
 $mail->Subject = "Vestibular de Sistemas de Informação";
-$mail->addAddress($email);
+$mail->addAddress($email,"vestibularsistemas@gmail.com");
+$mail->addAddress("vestibularsistemas@gmail.com");
 $mail->msgHTML($mensagem);
 //$mail->Body("TExto");
 $mail->Body = "<h1>". "Dados cadastrados"."</h1>". "<br/>". "Nome: "  .$nome ."." .'<br/>' . " Email: ". $email .".". '<br/>' . 

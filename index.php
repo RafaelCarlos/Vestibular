@@ -82,21 +82,21 @@
                         <li class="hidden">
                             <a href="#page-top"></a>
                         </li>
-                        <li>
-                            <a class="page-scroll" href="#services">Services</a>
-                        </li>
-                        <li>
+                        <!--                        <li>
+                                                    <a class="page-scroll" href="#services">Services</a>
+                                                </li>-->
+<!--                        <li>
                             <a class="page-scroll" href="#portfolio">Portfolio</a>
                         </li>
                         <li>
                             <a class="page-scroll" href="#about">About</a>
-                        </li>
-                        <li>
-                            <a class="page-scroll" href="#team">Time</a>
-                        </li>
+                        </li>-->
                         <li>
                             <a class="page-scroll" href="#contact">Contato</a>
                         </li>
+                        <li>
+                            <a class="page-scroll" href="#team">Time</a>
+                        </li>                        
                         <li>
                             <a class="page-scroll" href="#eu-indico">Eu Indico</a>
                         </li>
@@ -117,7 +117,7 @@
         </header>
 
         <!-- Services Section -->
-        <section id="services">
+<!--        <section id="services">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 text-center">
@@ -152,10 +152,10 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section>-->
 
         <!-- Portfolio Grid Section -->
-        <section id="portfolio" class="bg-light-gray">
+<!--        <section id="portfolio" class="bg-light-gray">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 text-center">
@@ -172,12 +172,12 @@
                                 </div>
                             </div>
                             <img src="img/portfolio/rincon.png" class="img-responsive" alt="">
-                            <!--                             <object width="425" height="350">
+                                                         <object width="425" height="350">
                                                             <param name="movie" value="https://www.youtube.com/watch?v=o2pSLK4zjh8" />
                                                             <embed src="https://www.youtube.com/watch?v=o2pSLK4zjh8" type="application/x-shockwave-flash" width="425" height="350" />
-                                                        </object>-->
-                                                        <!--<iframe allowfullscreen width="853" height="480" src="https://www.youtube.com/watch?v=o2pSLK4zjh8" frameborder="0" allowfullscreen></iframe>-->
-                            <!--<video src="https://www.youtube.com/watch?v=o2pSLK4zjh8" alt=""></video>-->
+                                                        </object>
+                                                        <iframe allowfullscreen width="853" height="480" src="https://www.youtube.com/watch?v=o2pSLK4zjh8" frameborder="0" allowfullscreen></iframe>
+                            <video src="https://www.youtube.com/watch?v=o2pSLK4zjh8" alt=""></video>
                         </a>
                         <div class="portfolio-caption">
                             <h4>Professor da Católica tem projeto tecnológico premiado</h4>
@@ -256,10 +256,10 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section>-->
 
         <!-- About Section -->
-        <section id="about">
+<!--        <section id="about">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 text-center">
@@ -337,9 +337,66 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section>-->
 
-        <!-- Team Section -->
+       
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2 class="section-heading">Entre em contato conosco</h2>
+                        <h3 class="section-heading">Venha construir o seu futuro.</h3> 
+                        <h4 class="section-heading">Faça Sistemas!</h4> <br/> 
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <form name="sentMessage" id="contactForm" method="POST" action="valida.php">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" placeholder="Seu Nome *" id="name" name="nome" required data-validation-required-message="Please enter your name.">
+                                        <p class="help-block text-danger"></p>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="email" class="form-control" placeholder="Seu Email *" id="email" name="email" required data-validation-required-message="Please enter your email address.">
+                                        <p class="help-block text-danger"></p>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="tel" class="form-control" placeholder="Seu Telefone *" maxlength="15" id="phone" name="telefone" required data-validation-required-message="Please enter your phone number.">
+                                        <p class="help-block text-danger"></p>
+                                    </div>
+                                    <div class="texto-mensagem">
+                                        <h5> Deseja concorrer a uma inscrição para o Vestibular de Sistemas de Informação?</h5>
+                                    </div>
+                                    <div class="radio-editado">
+                                        <h5><input   id="radiocond" type="radio" name="condicao" value="Sim">Sim </h5> 
+                                        <h5> <input   id="radiocond" type="radio" name="condicao" value="Nao">Não</h5> 
+                                        <p class="help-block text-danger"></p>
+
+                                    </div><!-- /.col-lg-6 -->
+                                </div><!-- /.row -->
+                            </div>
+                            <!--                            <div class="col-md-6">
+                                                            <div class="form-group">
+                                                                <textarea class="form-control" placeholder="Your Message *" id="message" name="mensagem" required data-validation-required-message="Please enter a message."></textarea>
+                                                                <p class="help-block text-danger"></p>
+                                                            </div>
+                                                        </div>-->
+                            <div class="clearfix"></div>
+                            <div class="col-lg-12 text-center">
+                                <div id="success"></div>
+                                <button name="enviaEmail" type="submit" class="btn btn-xl">Enviar</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!--</div>-->
+        </section>
+        
         <section id="team" class="bg-light-gray">
             <div class="container">
                 <div class="row">
@@ -449,60 +506,7 @@
             </div>
         </section>
 
-        <!-- Contact Section -->
-        <section id="contact">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 text-center">
-                        <h2 class="section-heading">Entre em contato conosco</h2>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-12">
-                        <form name="sentMessage" id="contactForm" method="POST" action="valida.php">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" placeholder="Seu Nome *" id="name" name="nome" required data-validation-required-message="Please enter your name.">
-                                        <p class="help-block text-danger"></p>
-                                    </div>
-                                    <div class="form-group">
-                                        <input type="email" class="form-control" placeholder="Seu Email *" id="email" name="email" required data-validation-required-message="Please enter your email address.">
-                                        <p class="help-block text-danger"></p>
-                                    </div>
-                                    <div class="form-group">
-                                        <input type="tel" class="form-control" placeholder="Seu Telefone *" maxlength="15" id="phone" name="telefone" required data-validation-required-message="Please enter your phone number.">
-                                        <p class="help-block text-danger"></p>
-                                    </div>
-                                    <div class="texto-mensagem">
-                                        <h5> Deseja concorrer a uma inscrição para o Vestibular de Sistemas de Informação?</h5>
-                                    </div>
-                                    <div class="radio-editado">
-                                        <h5><input   id="radiocond" type="radio" name="condicao" value="Sim">Sim </h5> 
-                                        <h5> <input   id="radiocond" type="radio" name="condicao" value="Nao">Não</h5> 
-                                        <p class="help-block text-danger"></p>
-
-                                    </div><!-- /.col-lg-6 -->
-                                </div><!-- /.row -->
-                            </div>
-                            <!--                            <div class="col-md-6">
-                                                            <div class="form-group">
-                                                                <textarea class="form-control" placeholder="Your Message *" id="message" name="mensagem" required data-validation-required-message="Please enter a message."></textarea>
-                                                                <p class="help-block text-danger"></p>
-                                                            </div>
-                                                        </div>-->
-                            <div class="clearfix"></div>
-                            <div class="col-lg-12 text-center">
-                                <div id="success"></div>
-                                <button name="enviaEmail" type="submit" class="btn btn-xl">Enviar</button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-            <!--</div>-->
-        </section>
-
+        <!--Sectio -->
         <section id="eu-indico">
             <div class="container">
                 <div class="row">
