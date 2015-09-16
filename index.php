@@ -111,7 +111,7 @@
         <header >
             <div class="container">
                 <div class="intro-text">
-                    <a href="#services" class="page-scroll btn btn-xl">Seja Bem-Vindo</a>
+                    <a href="#contact" class="page-scroll btn btn-xl">Seja Bem-Vindo</a>
                 </div>
             </div>
         </header>
