@@ -106,14 +106,13 @@
         </nav>
 
         <!-- Header -->
-        <header >
+        <header>
             <div class="container">
                 <div class="intro-text">
                     <a href="#contact" class="page-scroll btn btn-xl">Seja Bem-Vindo</a>
                 </div>
             </div>
         </header>
-
         <!-- Services Section -->
 <!--        <section id="services">
             <div class="container">
@@ -151,7 +150,6 @@
                 </div>
             </div>
         </section>-->
-
         <!-- Portfolio Grid Section -->
 <!--        <section id="portfolio" class="bg-light-gray">
             <div class="container">

@@ -27,9 +27,6 @@ $mail->SMTPAuth = true;
 $mail->Username = "vestibularsistemas@gmail.com";
 $mail->Password = "vestibularcatolica";
 
-
-//$mail->isMail();
-//$mail->isHTML(true);
 $mail->setFrom("vestibularsistemas@gmail.com", "Inscrição Vestibular");
 //$mail->From = "vestibularsistemas@gmail.com";
 $mail->FromName = $nome;
