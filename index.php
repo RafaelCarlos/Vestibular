@@ -485,7 +485,7 @@
                         <div class="team-member">
                             <img src="img/team/vinicio.jpg" class="img-responsive img-circle" alt="">
                             <h4>Vinicio Cerqueira</h4>
-                            <p class="text-muted">Desenvolvimento Web</p>
+                            <p class="text-muted">Divulgação</p>
                             <ul class="list-inline social-buttons">
                                 <li><a href="https://twitter.com/viniciocm"><i class="fa fa-twitter"></i></a>
                                 </li>
