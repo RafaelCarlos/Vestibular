@@ -56,8 +56,6 @@
                 }
             }
         </script>
-
-
     </head>
 
     <body id="page-top" class="index">
@@ -85,12 +83,12 @@
                         <!--                        <li>
                                                     <a class="page-scroll" href="#services">Services</a>
                                                 </li>-->
-<!--                        <li>
-                            <a class="page-scroll" href="#portfolio">Portfolio</a>
-                        </li>
-                        <li>
-                            <a class="page-scroll" href="#about">About</a>
-                        </li>-->
+                        <!--                        <li>
+                                                    <a class="page-scroll" href="#portfolio">Portfolio</a>
+                                                </li>
+                                                <li>
+                                                    <a class="page-scroll" href="#about">About</a>
+                                                </li>-->
                         <li>
                             <a class="page-scroll" href="#contact">Contato</a>
                         </li>
@@ -339,7 +337,7 @@
             </div>
         </section>-->
 
-       
+
 
         <!-- Contact Section -->
         <section id="contact">
@@ -396,7 +394,7 @@
             </div>
             <!--</div>-->
         </section>
-        
+
         <section id="team" class="bg-light-gray">
             <div class="container">
                 <div class="row">
