@@ -34,7 +34,7 @@ $mail->Password = "vestibularcatolica";
 //$mail->isHTML(true);
 $mail->setFrom("vestibularsistemas@gmail.com", "Inscrição Vestibular");
 //$mail->From = "vestibularsistemas@gmail.com";
-$mail->FromName = $nome;
+$mail->FromName = "Inscrição - Vestibular Sistemas de Informação";
 $mail->Subject = "Vestibular de Sistemas de Informação";
 $mail->addAddress($destino);
 $mail->msgHTML($mensagem);
