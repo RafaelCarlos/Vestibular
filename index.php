@@ -106,13 +106,15 @@
         </nav>
 
         <!-- Header -->
-        <header>
-            <div class="container">
-                <div class="intro-text">
-                    <a href="#contact" class="page-scroll btn btn-xl">Seja Bem-Vindo</a>
-                </div>
-            </div>
-        </header>
+        <!--        <header>
+                    <div class="container">
+                        <div class="intro-text">
+                            <a href="#contact" class="page-scroll btn btn-xl">Seja Bem-Vindo</a>
+                        </div>
+                    </div>
+                </header>-->
+
+
         <!-- Services Section -->
 <!--        <section id="services">
             <div class="container">
@@ -344,7 +346,7 @@
                     <div class="col-lg-12 text-center">
                         <h2 class="section-heading">Entre em contato conosco</h2>
                         <h3 class="section-heading">Venha construir o seu futuro.</h3> 
-                        <h4 class="section-heading">Faça Sistemas!</h4> <br/> 
+                        <h4 class="section-heading">Faça Sistemas de Informação!</h4> <br/> 
                     </div>
                 </div>
                 <div class="row">
@@ -353,7 +355,7 @@
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <input type="text" class="form-control" placeholder="Seu Nome *" id="name" name="nome" required data-validation-required-message="Please enter your name.">
+                                        <input type="text" class="form-control" placeholder="Seu Nome *" autofocus id="name" name="nome" required data-validation-required-message="Please enter your name.">
                                         <p class="help-block text-danger"></p>
                                     </div>
                                     <div class="form-group">
@@ -365,14 +367,14 @@
                                         <p class="help-block text-danger"></p>
                                     </div>
                                     <div class="texto-mensagem">
-                                        <h5> Deseja concorrer a uma inscrição para o Vestibular de Sistemas de Informação?</h5>
+                                        <h5> Ao enviar este formulário, você estará concorrendo a uma inscrição para o Vestibular de Sistemas de Informação.</h5>
                                     </div>
-                                    <div class="radio-editado">
-                                        <h5><input   id="radiocond" type="radio" name="condicao" value="Sim">Sim </h5> 
-                                        <h5> <input   id="radiocond" type="radio" name="condicao" value="Nao">Não</h5> 
-                                        <p class="help-block text-danger"></p>
-
-                                    </div><!-- /.col-lg-6 -->
+                                    <!--                                    <div class="radio-editado">
+                                                                            <h5><input   id="radiocond" type="radio" name="condicao" value="Sim">Sim </h5> 
+                                                                            <h5> <input   id="radiocond" type="radio" name="condicao" value="Nao">Não</h5> 
+                                                                            <p class="help-block text-danger"></p>
+                                    
+                                                                        </div> /.col-lg-6 -->
                                 </div><!-- /.row -->
                             </div>
                             <!--                            <div class="col-md-6">
@@ -492,6 +494,21 @@
                             </ul>
                         </div>
                     </div>
+                    <div class="col-sm-4">
+                        <div class="team-member">
+                            <img src="img/team/junior.jpg" class="img-responsive img-circle" alt="">
+                            <h4>Junior Alves</h4>
+                            <p class="text-muted">Divulgação</p>
+                            <ul class="list-inline social-buttons">
+                                <li><a href="#"><i class="fa fa-twitter"></i></a>
+                                </li>
+                                <li><a href="https://www.facebook.com/junior.alves.5832"><i class="fa fa-facebook"></i></a>
+                                </li>
+                                <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
 
                 </div>
                 <div class="row">
@@ -575,183 +592,9 @@
             </div>
         </footer>
 
-        <!-- Portfolio Modals -->
-        <!-- Use the modals below to showcase details about your portfolio projects! -->
 
-        <!-- Portfolio Modal 1 -->
-        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
-                        </div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <div class="modal-body">
-                                <!-- Project Details Go Here -->
-                                <h2>Desenvolvimento de um Catálogo Automatizado com Informações de Produtores Rurais da Agricultura Familiar ou Orgânica</h2>
-                                <!--<p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>-->
-                                <img class="img-responsive img-centered" src="img/portfolio/andre-img.png" alt="">
-                                <p>
-                                    Mais um professor da Católica do Tocantins foi premiado. Dessa vez, quem  conquistou o 2º lugar, concorrendo com professores do Brasil inteiro, foi o Professor Mestre, André Rincon. O Professor foi premiado na Categoria  Econômica/Tecnológica dos Prêmios Professor Bechimol e Banco da Amazônia de Empreendedorismo Consciente. O Prêmio tem como um de seus objetivos promover a reflexão e propor ações sobre as perspectivas econômicas científicas, tecnológicas, ambientais, sociais e de empreendedorismo para o desenvolvimento sustentável da Região Amazônica.
 
-                                    O projeto criado pelo professor ​t​em como título “Desenvolvimento de um Catálogo Automatizado com Informações de Produtores Rurais da Agricultura Familiar ou Orgânica”, e tem por finalidade o desenvolvimento de um cat​á​lago automatizado, por meio de aplicativo móbil e sistema web, para disponibilização de informações consolidadas e de fácil acesso que venha​m​ potencializar os canais de distribuição dos produtores rurais da Agricultura Familiar ou Orgânica do Estado do Tocantins. O aplicativo beneficiará os feirantes e cooperativas que terão os seus produtos conhecidos por meio do aplicativo.
 
-                                    Sobre a premiação o professor afirmou estar feliz pelo reconhecimento de seu projeto. “Estou muito feliz pelo reconhecimento e importância do projeto para o desenvolvimento da agricultura familiar e orgânica do Estado do Tocantins”, contou André, que também falou sobre o peso de ter o seu projeto premiado em um grande prêmio. “A premiação faz com que o  projeto seja reconhecido e assim facilita a abertura de portas para mais parceiros permitindo a continuidade do projeto​"​.
-
-                                    O projeto já ​se ​encontra em execução no Núcleo de Tecnologia da Informação da Faculdade Católica do Tocantins e a previsão de início da utilização do sistema é para m​aio de 2015.
-                                </p>
-                                <p>
-                                    <strong>Want these icons in this portfolio item sample?</strong>You can download 60 of them for free, courtesy of <a href="https://getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc">RoundIcons.com</a>, or you can purchase the 1500 icon set <a href="https://getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc">here</a>.</p>
-                                <ul class="list-inline">
-                                    <li>Date: July 2014</li>
-                                    <li>Client: Round Icons</li>
-                                    <li>Category: Graphic Design</li>
-                                </ul>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Portfolio Modal 2 -->
-        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
-                        </div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <div class="modal-body">
-                                <h2>Project Heading</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-responsive img-centered" src="img/portfolio/startup-framework-preview.png" alt="">
-                                <p><a href="http://designmodo.com/startup/?u=787">Startup Framework</a> is a website builder for professionals. Startup Framework contains components and complex blocks (PSD+HTML Bootstrap themes and templates) which can easily be integrated into almost any design. All of these components are made in the same style, and can easily be integrated into projects, allowing you to create hundreds of solutions for your future projects.</p>
-                                <p>You can preview Startup Framework <a href="http://designmodo.com/startup/?u=787">here</a>.</p>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Portfolio Modal 3 -->
-        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
-                        </div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <div class="modal-body">
-                                <!-- Project Details Go Here -->
-                                <h2>Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-responsive img-centered" src="img/portfolio/treehouse-preview.png" alt="">
-                                <p>Treehouse is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. This is bright and spacious design perfect for people or startup companies looking to showcase their apps or other projects.</p>
-                                <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/treehouse-free-psd-web-template/">FreebiesXpress.com</a>.</p>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Portfolio Modal 4 -->
-        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
-                        </div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <div class="modal-body">
-                                <!-- Project Details Go Here -->
-                                <h2>Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-responsive img-centered" src="img/portfolio/golden-preview.png" alt="">
-                                <p>Start Bootstrap's Agency theme is based on Golden, a free PSD website template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Golden is a modern and clean one page web template that was made exclusively for Best PSD Freebies. This template has a great portfolio, timeline, and meet your team sections that can be easily modified to fit your needs.</p>
-                                <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/golden-free-one-page-web-template/">FreebiesXpress.com</a>.</p>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Portfolio Modal 5 -->
-        <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
-                        </div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <div class="modal-body">
-                                <!-- Project Details Go Here -->
-                                <h2>Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-responsive img-centered" src="img/portfolio/escape-preview.png" alt="">
-                                <p>Escape is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Escape is a one page web template that was designed with agencies in mind. This template is ideal for those looking for a simple one page solution to describe your business and offer your services.</p>
-                                <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/escape-one-page-psd-web-template/">FreebiesXpress.com</a>.</p>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Portfolio Modal 6 -->
-        <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
-                        </div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <div class="modal-body">
-                                <!-- Project Details Go Here -->
-                                <h2>Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-responsive img-centered" src="img/portfolio/dreams-preview.png" alt="">
-                                <p>Dreams is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Dreams is a modern one page web template designed for almost any purpose. It’s a beautiful template that’s designed with the Bootstrap framework in mind.</p>
-                                <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/dreams-free-one-page-web-template/">FreebiesXpress.com</a>.</p>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
 
         <!-- jQuery -->
         <script src="js/jquery.js"></script>

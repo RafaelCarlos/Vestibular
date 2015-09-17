@@ -11,7 +11,6 @@ $(function () {
             var name = $("input#name").val();
             var email = $("input#email").val();
             var phone = $("input#phone").val();
-            var radiocond = $("input#radiocond").val();
             var firstName = name; // For Success/Failure Message
             // Check for white space in name for Success/Fail message
             if (firstName.indexOf(' ') >= 0) {
@@ -23,8 +22,7 @@ $(function () {
                 data: {
                     nome: name,
                     telefone: phone,
-                    email: email,
-                    condicao: radiocond
+                    email: email
                 },
                 cache: false,
                 success: function () {

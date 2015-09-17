@@ -13,7 +13,9 @@ $nome = (trim($_POST['nome']));
 $email = (trim($_POST['email']));
 $telefone = (trim($_POST['telefone']));
 $concorrer = (trim($_POST['condicao']));
-$destino = "rafaelcarlosrc2014@gmail.com";
+$destino = "vestibularsistemas@gmail.com";
+
+//$concorrer = "Enviado através do Android";
 
 $mail = new PHPMailer;
 $mail->isSMTP();
@@ -34,11 +36,12 @@ $mail->setFrom("vestibularsistemas@gmail.com", "Inscrição Vestibular");
 //$mail->From = "vestibularsistemas@gmail.com";
 $mail->FromName = $nome;
 $mail->Subject = "Vestibular de Sistemas de Informação";
-$mail->addAddress($email);
+$mail->addAddress($destino);
 $mail->msgHTML($mensagem);
 //$mail->Body("TExto");
 $mail->Body = "<h1>". "Dados cadastrados"."</h1>". "<br/>". "Nome: "  .$nome ."." .'<br/>' . " Email: ". $email .".". '<br/>' . 
          "Deseja concorrer a uma inscrição do Vestibular? " . $concorrer ."." ;
+
 
 
 $mail->send();

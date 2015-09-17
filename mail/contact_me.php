@@ -12,8 +12,7 @@ include '../phpmailer/class.smtp.php';
 $nome = (trim($_POST['nome']));
 $email = (trim($_POST['email']));
 $telefone = (trim($_POST['telefone']));
-$concorrer = (trim($_POST['condicao']));
-$destino = "rafaelcarlosrc2014@gmail.com";
+$destino = "vestibularsistemas@gmail.com";
 
 $mail = new PHPMailer;
 $mail->isSMTP();
@@ -29,15 +28,14 @@ $mail->Password = "vestibularcatolica";
 
 $mail->setFrom("vestibularsistemas@gmail.com", "Inscrição Vestibular");
 //$mail->From = "vestibularsistemas@gmail.com";
-$mail->FromName = $nome;
+$mail->FromName = "Inscrição - Vestibular Sistemas de Informação";
 $mail->Subject = "Vestibular de Sistemas de Informação";
-$mail->addAddress($email,"vestibularsistemas@gmail.com");
-$mail->addAddress("vestibularsistemas@gmail.com");
+$mail->addAddress($destino);
+//$mail->addAddress("vestibularsistemas@gmail.com");
 $mail->msgHTML($mensagem);
 //$mail->Body("TExto");
 $mail->Body = "<h1>". "Dados cadastrados"."</h1>". "<br/>". "Nome: "  .$nome ."." .'<br/>' . " Email: ". $email .".". '<br/>' . 
-        "Telefone: ". $telefone .".". '<br/>' .
-         "Deseja concorrer a uma inscrição do Vestibular? " . $concorrer ."." ;
+        "Telefone: ". $telefone .".". '<br/>' ;
 
 
 $mail->send();
