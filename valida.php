@@ -39,8 +39,7 @@ $mail->Subject = "Vestibular de Sistemas de Informação";
 $mail->addAddress($destino);
 $mail->msgHTML($mensagem);
 //$mail->Body("TExto");
-$mail->Body = "<h1>". "Dados cadastrados"."</h1>". "<br/>". "Nome: "  .$nome ."." .'<br/>' . " Email: ". $email .".". '<br/>' . 
-         "Deseja concorrer a uma inscrição do Vestibular? " . $concorrer ."." ;
+$mail->Body = "<h1>". "Dados cadastrados"."</h1>". "<br/>". "Nome: "  .$nome ."." .'<br/>' . " Email: ". $email .".";
 
 
 
