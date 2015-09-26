@@ -168,7 +168,7 @@
             <div class="container">
                 <div class="row">
 
-                    <img alt=""  src="img/eu-indico.jpg" class="img-responsive" />
+                    <img alt=""  src="img/eu-indico-compressor.jpg" class="img-responsive" />
                 </div>
             </div>
         </section>
@@ -230,7 +230,7 @@
                             <script src='//platform.twitter.com/widgets.js' type='text/javascript'>
                             </script>
                             <div style='float:left;width:110px;'>
-                                <a class='twitter-share-button' data-via='meuusuario' href='//twitter.com/share' rel='nofollow' title='tweet'></a></div></div>
+                                <a class='twitter-share-button' href='//twitter.com/share' rel='nofollow' title='tweet'></a></div></div>
                     </ul>
                 </div>
             </div>

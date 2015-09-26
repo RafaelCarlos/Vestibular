@@ -288,7 +288,9 @@ eu-indico{
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url(../img/eu-indico.jpg.jpg);
+    height: auto;
+    width: auto;
+    /*background-image: url(../img/eu-indico-compressor.jpg);*/
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -352,14 +354,14 @@ section {
 section h2.section-heading {
     margin-top: 0;
     margin-bottom: 30px;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 section h3.section-heading {
     margin-bottom: 30px;
     text-transform: none;
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 35px;
+    font-size: 25px;
     font-style: italic;
     font-weight: 400;
 }
@@ -367,7 +369,7 @@ section h4.section-heading {
     margin-bottom: 50px;
     text-transform: none;
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 30px;
+    font-size: 20px;
     font-style: italic;
     font-weight: 400;
 }
@@ -686,7 +688,7 @@ aside.clients img {
 
 section#contact {
     background-color: #222;
-    background-image: url(../img/map-image.png);
+    background-image: url(../img/map-image-compressor.png);
     background-position: center;
     background-repeat: no-repeat;
 }
